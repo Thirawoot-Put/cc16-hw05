@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200;400;600;800&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global setting */
+body {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    background-image: radial-gradient(circle, rgba(181, 181, 181, 0.499124649859944) 0%, rgba(0, 0, 0, 0.5) 100%), url('https://picsum.photos/id/126/1600');
+    color: whitesmoke;
+    height: 100vh;
+    margin: 0 10%;
+}
+
+/* header */
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 200;
+}
+
+/* main */
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.uc {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+h1 {
+    padding: 0;
+}
+
+.scroll-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.scroll {
+    background-color: whitesmoke;
+    width: 450px;
+    height: 1rem;
+}
+
+.bar {
+    width: 100%;
+    height: 100%;
+}
+
+.load {
+    width: 40%;
+    height: 100%;
+    background-color: tomato;
+}
+
+.load:hover {
+    width: 100%;
+    background-color: blue;
+    transition: 5s;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noti {
+    padding-top: 80px;
+}
+
+button {
+    padding: 4px 20px;
+    background-color: lightblue;
+    border: none;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contact {
+    display: flex;
+    gap: 12px;
+}
+
+i {
+    color: red;
+}
+
+.contact img {
+    width: 20px;
+}
+
+
+/* footer */
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 1px solid rgb(180, 180, 180);
+    color: rgb(180, 180, 180);
+    font-weight: 200;
+}
